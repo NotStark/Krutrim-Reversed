@@ -1,5 +1,5 @@
 # Krutrim Reversed
-a small project to use [Krutrim](https://olakrutrim.com/) in **your** projects.
+a small package to use [Krutrim](https://olakrutrim.com/) in **your** projects.
 
 ## Installation
 ```

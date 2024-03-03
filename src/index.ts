@@ -11,7 +11,7 @@ interface InteractionData {
     disclaimer: string;
 }
 
-interface ApiResponse {
+type ApiResponse  = {
     code: number;
     data?: InteractionData;
     HttpStatus: 'OK' | 'UNAUTHORIZED';
@@ -37,7 +37,7 @@ export default class Krutrim {
         };
     }
 
-    async chatCompletion(prompt: string, intersectionId: string | null = null): Promise<ApiResponse | Error> {
+    async chatCompletion(prompt: string, intersectionId: string | null = null): Promise<ApiResponse> {
         const payload: { message: string, intersectionId?: string } = { message: prompt };
 
         if (intersectionId) {

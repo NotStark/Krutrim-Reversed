@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "noImplicitAny": true,
-    "esModuleInterop": true,
-    "strictNullChecks": true,
-    "target": "ES2022",
-    "moduleResolution": "Node10",
-    "module": "CommonJS",
-    "declaration": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "outDir": "dist"
+      "strict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "strictNullChecks": true,
+      "target": "es5",
+      "moduleResolution": "node",
+      "module": "CommonJS",
+      "declaration": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "outDir": "dist",
+      "lib": ["es2015", "dom"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]

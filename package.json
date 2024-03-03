@@ -1,12 +1,12 @@
 {
-  "name": "krutrim",
+  "name": "krutrim-reversed",
   "version": "1.0.0",
   "description": "A simple reversed engineered package of https://chat.olakrutrim.com/home",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/NotStark/Krutrim-Reversed"
+    "url": "git+https://github.com/NotStark/Krutrim-Reversed.git"
   },
   "scripts": {
     "build": "tsup"
@@ -25,6 +25,7 @@
     "axios": "^1.6.7"
   },
   "devDependencies": {
-    "tsup": "^8.0.2"
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
   }
 }

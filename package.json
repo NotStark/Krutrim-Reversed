@@ -1,4 +1,26 @@
 {
+  "name": "krutrim",
+  "version": "1.0.0",
+  "description": "A simple reversed engineered package of https://chat.olakrutrim.com/home",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/NotStark/Krutrim-Reversed"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "krutrim",
+    "gpt-free",
+    "free-gpt",
+    "ai",
+    "completion",
+    "chat completion"
+  ],
+  "author": "thestark",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.6.7",
     "g4f": "^1.4.2"
